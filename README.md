@@ -1,4 +1,4 @@
-# thenerize
+# thenerize [![Build Status](https://travis-ci.org/leahciMic/thenerize.svg?branch=master)](https://travis-ci.org/leahciMic/thenerize)
 
 thenerize walks the passed in objects prototype chain and creates methods
 suitable for using in a promise chain. The methods take on the same name as
