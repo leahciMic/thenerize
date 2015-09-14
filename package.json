@@ -16,7 +16,8 @@
   "author": "Michael Leaney <leahcimic@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "get-prototype-chain": "^1.0.0"
+    "get-prototype-chain": "^1.0.0",
+    "lodash.capitalize": "^3.0.0"
   },
   "devDependencies": {
     "jasmine": "^2.3.2"
