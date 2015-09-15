@@ -9,9 +9,8 @@ const onlyUnique = (value, index, self) => {
 
 var getAllProperties = function(obj) {
   var chain = prototypeChain(obj);
-
   chain
-    .filter(x => x.constructor.name !== 'Object')
+    .filter(x => x !== Object.prototype)
     .map(obj => Object.getOwnPropertyNames(obj))
     .reduce((p, c) => {
       return p.concat(c);
