@@ -1,6 +1,6 @@
 {
   "name": "thenerize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates methods suitable for passing to then callbacks in promise chains",
   "main": "thenerize.js",
   "engines": {
